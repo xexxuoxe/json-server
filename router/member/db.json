@@ -161,26 +161,118 @@
             "views": 280
         }
     ],
-    "posts": [
+    "eventList": [
         {
-            "id": 1,
-            "title": "JSON Server 소개",
-            "author": "김철수"
-        },
-        {
-            "id": 2,
-            "title": "프론트엔드 개발 팁",
-            "author": "이영희"
-        },
-        {
-            "id": 3,
-            "title": "프론트엔드 개발 팁",
-            "author": "이영희"
-        },
-        {
-            "id": 4,
-            "title": "프론트엔드 개발 팁",
-            "author": "이은서"
-        }
+			"link": "https://vietnam.siwonschool.com/?s=event&p=survey",
+			"title": "✨고객 설문조사 이벤트!✨ 참여만 해도 100% 당첨!",
+			"subtitle": "이벤트 기간 : 2025년 03월 20일(목)까지",
+			"state": "진행중",
+			"image": "//data.siwonschool.com/vietnam_board/event/2024/02/29/thumb_1709183449.png"
+		},
+		{
+			"link": "https://daily.siwonschool.com/?s=event&t=siwonmall_vip",
+			"title": "[시원패밀리] ONLY! 회원 전용 생필품 마켓",
+			"subtitle": "이벤트 기간 : 2025년 01월 01일(수)까지",
+			"state": "진행중",
+			"image": "//data.siwonschool.com/vietnam_board/event/2024/04/02/thumb_1712040122.jpg"
+		},
+		{
+			"link": "https://vietnam.siwonschool.com/?s=event&p=reviewevent",
+			"title": "무엇이든, 쓰고, 보자! 수강후기 남기면 100% 수강연장♥",
+			"subtitle": "이벤트 기간 : 2025년 01월 01일(수)까지",
+			"state": "진행중",
+			"image": "//data.siwonschool.com/vietnam_board/event/2022/11/01/thumb_1667280767.jpg"
+		},
+		{
+			"link": "https://vietnam.siwonschool.com/?s=event&p=localreporter",
+			"title": "시원스쿨 베트남어 기자단 대모집!",
+			"subtitle": "이벤트 기간 : 2026년 10월 31일(토)까지",
+			"state": "진행중",
+			"image": "//data.siwonschool.com/vietnam_board/event/2023/03/22/thumb_1679459361.png"
+		},
+		{
+			"link": "https://daily.siwonschool.com/?s=event&t=e-bicycle&utm_campaign=bicycle&utm_source=familysite&utm_medium=bicycle&utm_content=banner&utm_term=vietnam_event",
+			"title": "시원스쿨 최초 구성🚲지금 평생수강권 구매 시 전기자전거가 공짜!",
+			"subtitle": "이벤트 기간 : 2025년 01월 01일(수)까지",
+			"state": "진행중",
+			"image": "//data.siwonschool.com/vietnam_board/event/2023/02/24/thumb_1677231031.jpg"
+		},
+		{
+			"link": "https://vietnam.siwonschool.com/?s=event&p=welcome",
+			"title": "시작이 반! 첫만남 신규가입 할인 ※가입당일 구매 특별혜택",
+			"subtitle": "이벤트 기간 : 2025년 01월 01일(수)까지",
+			"state": "진행중",
+			"image": "//data.siwonschool.com/vietnam_board/event/2022/12/29/thumb_1672288162.jpg"
+		},
+		{
+			"link": "https://vietnam.siwonschool.com/?s=event&p=transfer_event",
+			"title": "지금 시원스쿨베트남어로 환승하고 100% 당첨 혜택 받아가세요!",
+			"subtitle": "이벤트 기간 : 2025년 01월 01일(수)까지",
+			"state": "진행중",
+			"image": "//data.siwonschool.com/vietnam_board/event/2020/09/29/thumb_1601347402.jpg"
+		},
+		{
+			"link": "http://vietnam.siwonschool.com/?s=event&p=discount_event",
+			"title": "베트남어 전공자, 군인, 국가유공자, 시원스쿨 수강생은 100% 할인 혜택 증정!",
+			"subtitle": "이벤트 기간 : 2025년 01월 01일(수)까지",
+			"state": "진행중",
+			"image": "//data.siwonschool.com/vietnam_board/event/2020/09/25/thumb_1600999802.jpg"
+		},
+		{
+			"link": "/?s=community&p=event&m=view&sno=5450",
+			"title": "단 14일 동안만! 최대 60만원 쿠폰팩 드려요?♂️",
+			"subtitle": "이벤트 기간 : 2024년 06월 17일(월)까지",
+			"state": "종료",
+			"image": "//data.siwonschool.com/vietnam_board/event/2024/06/03/thumb_1717371875.jpg"
+		},
+		{
+			"link": "/?s=community&p=event&m=view&sno=5376",
+			"title": "영화 <마담웹> 예매권 이벤트",
+			"subtitle": "이벤트 기간 : 2024년 03월 10일(일)까지",
+			"state": "종료",
+			"image": "//data.siwonschool.com/vietnam_board/event/2024/02/26/thumb_1708923837.jpg"
+		},
+		{
+			"link": "/?s=community&p=event&m=view&sno=5367",
+			"title": "연극 <불편한 편의점> 티켓 증정 이벤트!",
+			"subtitle": "이벤트 기간 : 2024년 03월 20일(수)까지",
+			"state": "종료",
+			"image": "//data.siwonschool.com/vietnam_board/event/2024/02/26/thumb_1708920761.png"
+		},
+		{
+			"link": "https://innofamily.siwonschool.com/?s=event&p=newsemester&tab=vietnam",
+			"title": "시원스쿨 새학기 응원 이벤트",
+			"subtitle": "이벤트 기간 : 2024년 03월 11일(월)까지",
+			"state": "종료",
+			"image": "//data.siwonschool.com/vietnam_board/event/2024/02/20/thumb_1708387914.jpg"
+		},
+		{
+			"link": "https://innofamily.siwonschool.com/?s=event&p=smartstore_evt",
+			"title": "🥰소비자선정 최고의 브랜드 대상 이벤트🥰",
+			"subtitle": "이벤트 기간 : 2024년 02월 20일(화)까지",
+			"state": "종료",
+			"image": "//data.siwonschool.com/vietnam_board/event/2024/02/14/thumb_1707894938.jpg"
+		},
+		{
+			"link": "/?s=community&p=event&m=view&sno=5308",
+			"title": "생애 첫 출판작가를 위한 초단기 글쓰기 공개강의",
+			"subtitle": "이벤트 기간 : 2024년 01월 25일(목)까지",
+			"state": "종료",
+			"image": "//data.siwonschool.com/vietnam_board/event/2024/01/15/thumb_1705285855.jpg"
+		},
+		{
+			"link": "https://innofamily.siwonschool.com/?s=event&p=siwonwiggle",
+			"title": "[시원스쿨X위글위글] 시원스쿨 외국어 교육대전🎈",
+			"subtitle": "이벤트 기간 : 2024년 01월 31일(수)까지",
+			"state": "종료",
+			"image": "//data.siwonschool.com/vietnam_board/event/2024/01/04/thumb_1704358884.png"
+		},
+		{
+			"link": "https://innofamily.siwonschool.com/?s=event&p=siwonwiggle",
+			"title": "[시원스쿨X위글위글] 시원스쿨 외국어 교육대전🎈",
+			"subtitle": "이벤트 기간 : 2023년 12월 31일(일)까지",
+			"state": "종료",
+			"image": "//data.siwonschool.com/vietnam_board/event/2023/12/13/thumb_1702442582.jpg"
+		}
     ]
 }
