@@ -1,7 +1,27 @@
 {
-    "boradList": [
+	"teacherList": [
+		{
+            "label": "선생님",
+            "options": [
+                { "label": "김빛나", "value": "kim" },
+                { "label": "이말순", "value": "lee" },
+                { "label": "박나래", "value": "park"  }
+            ]
+        }
+	],
+    "postList2": [
         {
-            "number": 1,
+            "id": 1,
+			"title": "Introduction to React",
+            "author": "John Doe",
+            "date": "2024-01-15",
+            "satisfaction": 4.5,
+            "views": 150
+        }
+	],
+    "postList": [
+        {
+            "id": 1,
             "title": "Introduction to React",
             "author": "John Doe",
             "date": "2024-01-15",
@@ -9,7 +29,7 @@
             "views": 150
         },
         {
-            "number": 2,
+            "id": 2,
             "title": "Advanced JavaScript",
             "author": "Jane Smith",
             "date": "2024-02-20",
@@ -17,7 +37,7 @@
             "views": 200
         },
         {
-            "number": 3,
+            "id": 3,
             "title": "CSS Fundamentals",
             "author": "Alice Johnson",
             "date": "2024-03-05",
@@ -25,7 +45,7 @@
             "views": 180
         },
         {
-            "number": 4,
+            "id": 4,
             "title": "Node.js for Beginners",
             "author": "Bob Brown",
             "date": "2024-04-10",
@@ -33,7 +53,7 @@
             "views": 220
         },
         {
-            "number": 5,
+            "id": 5,
             "title": "Understanding TypeScript",
             "author": "Charlie Davis",
             "date": "2024-05-25",
@@ -41,7 +61,7 @@
             "views": 300
         },
         {
-            "number": 6,
+            "id": 6,
             "title": "Intro to Python",
             "author": "David Wilson",
             "date": "2024-06-01",
@@ -49,7 +69,7 @@
             "views": 250
         },
         {
-            "number": 7,
+            "id": 7,
             "title": "Web Development Basics",
             "author": "Evelyn Moore",
             "date": "2024-07-15",
@@ -57,7 +77,7 @@
             "views": 170
         },
         {
-            "number": 8,
+            "id": 8,
             "title": "Understanding APIs",
             "author": "Frank Thompson",
             "date": "2024-08-10",
@@ -65,7 +85,7 @@
             "views": 190
         },
         {
-            "number": 9,
+            "id": 9,
             "title": "Java for Beginners",
             "author": "Grace Taylor",
             "date": "2024-09-05",
@@ -73,7 +93,7 @@
             "views": 210
         },
         {
-            "number": 10,
+            "id": 10,
             "title": "Introduction to SQL",
             "author": "Henry Martinez",
             "date": "2024-10-01",
@@ -81,7 +101,7 @@
             "views": 230
         },
         {
-            "number": 11,
+            "id": 11,
             "title": "React Hooks Explained",
             "author": "Isabella Garcia",
             "date": "2024-11-10",
@@ -89,7 +109,7 @@
             "views": 160
         },
         {
-            "number": 12,
+            "id": 12,
             "title": "Mastering Git",
             "author": "Jack Anderson",
             "date": "2024-12-05",
@@ -97,7 +117,7 @@
             "views": 240
         },
         {
-            "number": 13,
+            "id": 13,
             "title": "Frontend Frameworks Overview",
             "author": "Liam White",
             "date": "2025-01-20",
@@ -105,7 +125,7 @@
             "views": 150
         },
         {
-            "number": 14,
+            "id": 14,
             "title": "Backend Development with Express",
             "author": "Mia Harris",
             "date": "2025-02-25",
@@ -113,7 +133,7 @@
             "views": 175
         },
         {
-            "number": 15,
+            "id": 15,
             "title": "Introduction to Data Structures",
             "author": "Noah Clark",
             "date": "2025-03-10",
@@ -121,7 +141,7 @@
             "views": 180
         },
         {
-            "number": 16,
+            "id": 16,
             "title": "Exploring Machine Learning",
             "author": "Olivia Lewis",
             "date": "2025-04-15",
@@ -129,7 +149,7 @@
             "views": 220
         },
         {
-            "number": 17,
+            "id": 17,
             "title": "Building Mobile Apps with Flutter",
             "author": "Paul Walker",
             "date": "2025-05-20",
@@ -137,7 +157,7 @@
             "views": 210
         },
         {
-            "number": 18,
+            "id": 18,
             "title": "Web Accessibility Best Practices",
             "author": "Quinn Young",
             "date": "2025-06-25",
@@ -145,7 +165,7 @@
             "views": 160
         },
         {
-            "number": 19,
+            "id": 19,
             "title": "Introduction to Docker",
             "author": "Riley King",
             "date": "2025-07-30",
@@ -153,7 +173,7 @@
             "views": 200
         },
         {
-            "number": 20,
+            "id": 20,
             "title": "Cloud Computing Essentials",
             "author": "Sophia Scott",
             "date": "2025-08-15",
@@ -163,116 +183,134 @@
     ],
     "eventList": [
         {
+
+			"id": 1,
 			"link": "https://vietnam.siwonschool.com/?s=event&p=survey",
 			"title": "✨고객 설문조사 이벤트!✨ 참여만 해도 100% 당첨!",
 			"subtitle": "이벤트 기간 : 2025년 03월 20일(목)까지",
 			"state": "진행중",
-			"image": "//data.siwonschool.com/vietnam_board/event/2024/02/29/thumb_1709183449.png"
+			"image": "https://data.siwonschool.com/vietnam_board/event/2024/02/29/thumb_1709183449.png"
 		},
 		{
+			"id": 2,
 			"link": "https://daily.siwonschool.com/?s=event&t=siwonmall_vip",
 			"title": "[시원패밀리] ONLY! 회원 전용 생필품 마켓",
 			"subtitle": "이벤트 기간 : 2025년 01월 01일(수)까지",
 			"state": "진행중",
-			"image": "//data.siwonschool.com/vietnam_board/event/2024/04/02/thumb_1712040122.jpg"
+			"image": "https://data.siwonschool.com/vietnam_board/event/2024/04/02/thumb_1712040122.jpg"
 		},
 		{
+			"id": 3,
 			"link": "https://vietnam.siwonschool.com/?s=event&p=reviewevent",
 			"title": "무엇이든, 쓰고, 보자! 수강후기 남기면 100% 수강연장♥",
 			"subtitle": "이벤트 기간 : 2025년 01월 01일(수)까지",
 			"state": "진행중",
-			"image": "//data.siwonschool.com/vietnam_board/event/2022/11/01/thumb_1667280767.jpg"
+			"image": "https://data.siwonschool.com/vietnam_board/event/2022/11/01/thumb_1667280767.jpg"
 		},
 		{
+			"id": 4,
 			"link": "https://vietnam.siwonschool.com/?s=event&p=localreporter",
 			"title": "시원스쿨 베트남어 기자단 대모집!",
 			"subtitle": "이벤트 기간 : 2026년 10월 31일(토)까지",
 			"state": "진행중",
-			"image": "//data.siwonschool.com/vietnam_board/event/2023/03/22/thumb_1679459361.png"
+			"image": "https://data.siwonschool.com/vietnam_board/event/2023/03/22/thumb_1679459361.png"
 		},
 		{
+			"id": 5,
 			"link": "https://daily.siwonschool.com/?s=event&t=e-bicycle&utm_campaign=bicycle&utm_source=familysite&utm_medium=bicycle&utm_content=banner&utm_term=vietnam_event",
 			"title": "시원스쿨 최초 구성🚲지금 평생수강권 구매 시 전기자전거가 공짜!",
 			"subtitle": "이벤트 기간 : 2025년 01월 01일(수)까지",
 			"state": "진행중",
-			"image": "//data.siwonschool.com/vietnam_board/event/2023/02/24/thumb_1677231031.jpg"
+			"image": "https://data.siwonschool.com/vietnam_board/event/2023/02/24/thumb_1677231031.jpg"
 		},
 		{
+			"id": 6,
 			"link": "https://vietnam.siwonschool.com/?s=event&p=welcome",
 			"title": "시작이 반! 첫만남 신규가입 할인 ※가입당일 구매 특별혜택",
 			"subtitle": "이벤트 기간 : 2025년 01월 01일(수)까지",
 			"state": "진행중",
-			"image": "//data.siwonschool.com/vietnam_board/event/2022/12/29/thumb_1672288162.jpg"
+			"image": "https://data.siwonschool.com/vietnam_board/event/2022/12/29/thumb_1672288162.jpg"
 		},
 		{
+			"id": 7,
 			"link": "https://vietnam.siwonschool.com/?s=event&p=transfer_event",
 			"title": "지금 시원스쿨베트남어로 환승하고 100% 당첨 혜택 받아가세요!",
 			"subtitle": "이벤트 기간 : 2025년 01월 01일(수)까지",
 			"state": "진행중",
-			"image": "//data.siwonschool.com/vietnam_board/event/2020/09/29/thumb_1601347402.jpg"
+			"image": "https://data.siwonschool.com/vietnam_board/event/2020/09/29/thumb_1601347402.jpg"
 		},
 		{
+			"id": 8,
 			"link": "http://vietnam.siwonschool.com/?s=event&p=discount_event",
 			"title": "베트남어 전공자, 군인, 국가유공자, 시원스쿨 수강생은 100% 할인 혜택 증정!",
 			"subtitle": "이벤트 기간 : 2025년 01월 01일(수)까지",
 			"state": "진행중",
-			"image": "//data.siwonschool.com/vietnam_board/event/2020/09/25/thumb_1600999802.jpg"
+			"image": "https://data.siwonschool.com/vietnam_board/event/2020/09/25/thumb_1600999802.jpg"
 		},
 		{
+			"id": 9,
 			"link": "/?s=community&p=event&m=view&sno=5450",
 			"title": "단 14일 동안만! 최대 60만원 쿠폰팩 드려요?♂️",
 			"subtitle": "이벤트 기간 : 2024년 06월 17일(월)까지",
 			"state": "종료",
-			"image": "//data.siwonschool.com/vietnam_board/event/2024/06/03/thumb_1717371875.jpg"
+			"image": "https://data.siwonschool.com/vietnam_board/event/2024/06/03/thumb_1717371875.jpg"
 		},
 		{
+			"id": 10,
 			"link": "/?s=community&p=event&m=view&sno=5376",
 			"title": "영화 <마담웹> 예매권 이벤트",
 			"subtitle": "이벤트 기간 : 2024년 03월 10일(일)까지",
 			"state": "종료",
-			"image": "//data.siwonschool.com/vietnam_board/event/2024/02/26/thumb_1708923837.jpg"
+			"image": "https://data.siwonschool.com/vietnam_board/event/2024/02/26/thumb_1708923837.jpg"
 		},
 		{
+			"id": 11,
 			"link": "/?s=community&p=event&m=view&sno=5367",
 			"title": "연극 <불편한 편의점> 티켓 증정 이벤트!",
 			"subtitle": "이벤트 기간 : 2024년 03월 20일(수)까지",
 			"state": "종료",
-			"image": "//data.siwonschool.com/vietnam_board/event/2024/02/26/thumb_1708920761.png"
+			"image": "https://data.siwonschool.com/vietnam_board/event/2024/02/26/thumb_1708920761.png"
 		},
 		{
+			"id": 12,
 			"link": "https://innofamily.siwonschool.com/?s=event&p=newsemester&tab=vietnam",
 			"title": "시원스쿨 새학기 응원 이벤트",
 			"subtitle": "이벤트 기간 : 2024년 03월 11일(월)까지",
 			"state": "종료",
-			"image": "//data.siwonschool.com/vietnam_board/event/2024/02/20/thumb_1708387914.jpg"
+			"image": "https://data.siwonschool.com/vietnam_board/event/2024/02/20/thumb_1708387914.jpg"
 		},
 		{
+			"id": 13,
 			"link": "https://innofamily.siwonschool.com/?s=event&p=smartstore_evt",
 			"title": "🥰소비자선정 최고의 브랜드 대상 이벤트🥰",
 			"subtitle": "이벤트 기간 : 2024년 02월 20일(화)까지",
 			"state": "종료",
-			"image": "//data.siwonschool.com/vietnam_board/event/2024/02/14/thumb_1707894938.jpg"
+			"image": "https://data.siwonschool.com/vietnam_board/event/2024/02/14/thumb_1707894938.jpg"
 		},
 		{
+			"id": 14,
 			"link": "/?s=community&p=event&m=view&sno=5308",
 			"title": "생애 첫 출판작가를 위한 초단기 글쓰기 공개강의",
 			"subtitle": "이벤트 기간 : 2024년 01월 25일(목)까지",
 			"state": "종료",
-			"image": "//data.siwonschool.com/vietnam_board/event/2024/01/15/thumb_1705285855.jpg"
+			"image": "https://data.siwonschool.com/vietnam_board/event/2024/01/15/thumb_1705285855.jpg"
 		},
 		{
+			"id": 15,
 			"link": "https://innofamily.siwonschool.com/?s=event&p=siwonwiggle",
 			"title": "[시원스쿨X위글위글] 시원스쿨 외국어 교육대전🎈",
 			"subtitle": "이벤트 기간 : 2024년 01월 31일(수)까지",
 			"state": "종료",
-			"image": "//data.siwonschool.com/vietnam_board/event/2024/01/04/thumb_1704358884.png"
+			"image": "https://data.siwonschool.com/vietnam_board/event/2024/01/04/thumb_1704358884.png"
 		},
 		{
+			"id": 16,
 			"link": "https://innofamily.siwonschool.com/?s=event&p=siwonwiggle",
 			"title": "[시원스쿨X위글위글] 시원스쿨 외국어 교육대전🎈",
 			"subtitle": "이벤트 기간 : 2023년 12월 31일(일)까지",
 			"state": "종료",
-			"image": "//data.siwonschool.com/vietnam_board/event/2023/12/13/thumb_1702442582.jpg"
+			"image": "https://data.siwonschool.com/vietnam_board/event/2023/12/13/thumb_1702442582.jpg"
 		}
     ]
+
 }
