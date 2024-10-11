@@ -9,179 +9,108 @@
             ]
         }
 	],
-    "postList2": [
-        {
-            "id": 1,
-			"title": "Introduction to React",
-            "author": "John Doe",
-            "date": "2024-01-15",
-            "satisfaction": 4.5,
-            "views": 150
-        }
-	],
     "postList": [
-        {
-            "id": 1,
-            "title": "Introduction to React",
-            "author": "John Doe",
-            "date": "2024-01-15",
-            "satisfaction": 4.5,
-            "views": 150
-        },
-        {
-            "id": 2,
-            "title": "Advanced JavaScript",
-            "author": "Jane Smith",
-            "date": "2024-02-20",
-            "satisfaction": 4.7,
-            "views": 200
-        },
-        {
-            "id": 3,
-            "title": "CSS Fundamentals",
-            "author": "Alice Johnson",
-            "date": "2024-03-05",
-            "satisfaction": 4.2,
-            "views": 180
-        },
-        {
-            "id": 4,
-            "title": "Node.js for Beginners",
-            "author": "Bob Brown",
-            "date": "2024-04-10",
-            "satisfaction": 4.8,
-            "views": 220
-        },
-        {
-            "id": 5,
-            "title": "Understanding TypeScript",
-            "author": "Charlie Davis",
-            "date": "2024-05-25",
-            "satisfaction": 4.9,
-            "views": 300
-        },
-        {
-            "id": 6,
-            "title": "Intro to Python",
-            "author": "David Wilson",
-            "date": "2024-06-01",
-            "satisfaction": 4.6,
-            "views": 250
-        },
-        {
-            "id": 7,
-            "title": "Web Development Basics",
-            "author": "Evelyn Moore",
-            "date": "2024-07-15",
-            "satisfaction": 4.4,
-            "views": 170
-        },
-        {
-            "id": 8,
-            "title": "Understanding APIs",
-            "author": "Frank Thompson",
-            "date": "2024-08-10",
-            "satisfaction": 4.5,
-            "views": 190
-        },
-        {
-            "id": 9,
-            "title": "Java for Beginners",
-            "author": "Grace Taylor",
-            "date": "2024-09-05",
-            "satisfaction": 4.3,
-            "views": 210
-        },
-        {
-            "id": 10,
-            "title": "Introduction to SQL",
-            "author": "Henry Martinez",
-            "date": "2024-10-01",
-            "satisfaction": 4.7,
-            "views": 230
-        },
-        {
-            "id": 11,
-            "title": "React Hooks Explained",
-            "author": "Isabella Garcia",
-            "date": "2024-11-10",
-            "satisfaction": 4.6,
-            "views": 160
-        },
-        {
-            "id": 12,
-            "title": "Mastering Git",
-            "author": "Jack Anderson",
-            "date": "2024-12-05",
-            "satisfaction": 4.8,
-            "views": 240
-        },
-        {
-            "id": 13,
-            "title": "Frontend Frameworks Overview",
-            "author": "Liam White",
-            "date": "2025-01-20",
-            "satisfaction": 4.5,
-            "views": 150
-        },
-        {
-            "id": 14,
-            "title": "Backend Development with Express",
-            "author": "Mia Harris",
-            "date": "2025-02-25",
-            "satisfaction": 4.7,
-            "views": 175
-        },
-        {
-            "id": 15,
-            "title": "Introduction to Data Structures",
-            "author": "Noah Clark",
-            "date": "2025-03-10",
-            "satisfaction": 4.4,
-            "views": 180
-        },
-        {
-            "id": 16,
-            "title": "Exploring Machine Learning",
-            "author": "Olivia Lewis",
-            "date": "2025-04-15",
-            "satisfaction": 4.9,
-            "views": 220
-        },
-        {
-            "id": 17,
-            "title": "Building Mobile Apps with Flutter",
-            "author": "Paul Walker",
-            "date": "2025-05-20",
-            "satisfaction": 4.6,
-            "views": 210
-        },
-        {
-            "id": 18,
-            "title": "Web Accessibility Best Practices",
-            "author": "Quinn Young",
-            "date": "2025-06-25",
-            "satisfaction": 4.8,
-            "views": 160
-        },
-        {
-            "id": 19,
-            "title": "Introduction to Docker",
-            "author": "Riley King",
-            "date": "2025-07-30",
-            "satisfaction": 4.7,
-            "views": 200
-        },
-        {
-            "id": 20,
-            "title": "Cloud Computing Essentials",
-            "author": "Sophia Scott",
-            "date": "2025-08-15",
-            "satisfaction": 4.9,
-            "views": 280
-        }
-    ],
-    "eventList": [
+		{
+			"id": 1,
+			"title": "Introduction to React",
+			"author": "John Doe",
+			"date": "2024-01-15",
+			"file": "react_intro.pdf",
+			"satisfaction": 4.5,
+			"views": 150
+		},
+		{
+			"id": 2,
+			"title": "Advanced JavaScript",
+			"author": "Jane Smith",
+			"date": "2024-02-20",
+			"file": "advanced_js.pdf",
+			"satisfaction": 4.7,
+			"views": 200
+		},
+		{
+			"id": 3,
+			"title": "CSS Fundamentals",
+			"author": "Alice Johnson",
+			"date": "2024-03-05",
+			"file": "css_fundamentals.pdf",
+			"satisfaction": 4.2,
+			"views": 180
+		},
+		{
+			"id": 4,
+			"title": "Node.js for Beginners",
+			"author": "Bob Brown",
+			"date": "2024-04-10",
+			"file": "nodejs_beginners.pdf",
+			"satisfaction": 4.8,
+			"views": 220
+		},
+		{
+			"id": 5,
+			"title": "Understanding TypeScript",
+			"author": "Charlie Davis",
+			"date": "2024-05-25",
+			"file": "typescript_guide.pdf",
+			"satisfaction": 4.9,
+			"views": 300
+		},
+		{
+			"id": 6,
+			"title": "Intro to Python",
+			"author": "David Wilson",
+			"date": "2024-06-01",
+			"file": "intro_to_python.pdf",
+			"satisfaction": 4.6,
+			"views": 250
+		},
+		{
+			"id": 7,
+			"title": "Web Development Basics",
+			"author": "Evelyn Moore",
+			"date": "2024-07-15",
+			"file": "web_dev_basics.pdf",
+			"satisfaction": 4.4,
+			"views": 170
+		},
+		{
+			"id": 8,
+			"title": "Understanding APIs",
+			"author": "Frank Thompson",
+			"date": "2024-08-10",
+			"file": "understanding_apis.pdf",
+			"satisfaction": 4.5,
+			"views": 190
+		},
+		{
+			"id": 9,
+			"title": "Java for Beginners",
+			"author": "Grace Taylor",
+			"date": "2024-09-05",
+			"file": "java_beginners.pdf",
+			"satisfaction": 4.3,
+			"views": 210
+		},
+		{
+			"id": 10,
+			"title": "Introduction to SQL",
+			"author": "Henry Martinez",
+			"date": "2024-10-01",
+			"file": "sql_intro.pdf",
+			"satisfaction": 4.7,
+			"views": 230
+		},
+		{
+			"id": 11,
+			"title": "React Hooks Explained",
+			"author": "Isabella Garcia",
+			"date": "2024-11-10",
+			"file": "test.pdf",
+			"satisfaction": "4.7",
+			"views": "230"
+		}
+	],
+		"eventList": [
         {
 
 			"id": 1,

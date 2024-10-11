@@ -13,7 +13,7 @@ npm i -g json-server
 # 소스 설치
 git clone https://git.sjwcorp.kr/study/json-server.git
 cd json-server
-yarn install 
+yarn install
 ```
 
 2. json-server 실행
