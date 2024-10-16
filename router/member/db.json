@@ -16,7 +16,7 @@
 			"author": "John Doe",
 			"date": "2024-01-15",
 			"file": "react_intro.pdf",
-			"satisfaction": 4.5,
+			"satisfaction": "★★★★",
 			"views": 150
 		},
 		{
@@ -25,7 +25,7 @@
 			"author": "Jane Smith",
 			"date": "2024-02-20",
 			"file": "advanced_js.pdf",
-			"satisfaction": 4.7,
+			"satisfaction": "★★★★★",
 			"views": 200
 		},
 		{
@@ -34,7 +34,7 @@
 			"author": "Alice Johnson",
 			"date": "2024-03-05",
 			"file": "css_fundamentals.pdf",
-			"satisfaction": 4.2,
+			"satisfaction": "★★★",
 			"views": 180
 		},
 		{
@@ -43,7 +43,7 @@
 			"author": "Bob Brown",
 			"date": "2024-04-10",
 			"file": "nodejs_beginners.pdf",
-			"satisfaction": 4.8,
+			"satisfaction": "★★★",
 			"views": 220
 		},
 		{
@@ -52,7 +52,7 @@
 			"author": "Charlie Davis",
 			"date": "2024-05-25",
 			"file": "typescript_guide.pdf",
-			"satisfaction": 4.9,
+			"satisfaction": "★★★★",
 			"views": 300
 		},
 		{
@@ -61,7 +61,7 @@
 			"author": "David Wilson",
 			"date": "2024-06-01",
 			"file": "intro_to_python.pdf",
-			"satisfaction": 4.6,
+			"satisfaction": "★★",
 			"views": 250
 		},
 		{
@@ -70,7 +70,7 @@
 			"author": "Evelyn Moore",
 			"date": "2024-07-15",
 			"file": "web_dev_basics.pdf",
-			"satisfaction": 4.4,
+			"satisfaction": "★★",
 			"views": 170
 		},
 		{
@@ -79,7 +79,7 @@
 			"author": "Frank Thompson",
 			"date": "2024-08-10",
 			"file": "understanding_apis.pdf",
-			"satisfaction": 4.5,
+			"satisfaction": "★★★★",
 			"views": 190
 		},
 		{
@@ -88,7 +88,7 @@
 			"author": "Grace Taylor",
 			"date": "2024-09-05",
 			"file": "java_beginners.pdf",
-			"satisfaction": 4.3,
+			"satisfaction": "★",
 			"views": 210
 		},
 		{
@@ -97,7 +97,7 @@
 			"author": "Henry Martinez",
 			"date": "2024-10-01",
 			"file": "sql_intro.pdf",
-			"satisfaction": 4.7,
+			"satisfaction": "★★★★★",
 			"views": 230
 		},
 		{
@@ -106,11 +106,132 @@
 			"author": "Isabella Garcia",
 			"date": "2024-11-10",
 			"file": "test.pdf",
-			"satisfaction": "4.7",
+			"satisfaction": "★★★★★",
 			"views": "230"
 		}
 	],
-		"eventList": [
+	"postView": [
+		{
+			"id": 1,
+			"title": "Introduction to React",
+			"author": "John Doe",
+			"date": "2024-01-15",
+			"file": "react_intro.pdf",
+			"teacher": "최지선 선생님",
+			"contents": "React의 기본 개념을 배우는 강좌입니다.",
+			"views": "150"
+		},
+		{
+			"id": 2,
+			"title": "Advanced JavaScript",
+			"author": "Jane Smith",
+			"date": "2024-02-20",
+			"file": "advanced_js.pdf",
+			"teacher": "김영호 선생님",
+			"contents": "고급 JavaScript 기법을 다루는 강좌입니다.",
+			"views": "200"
+		},
+		{
+			"id": 3,
+			"title": "CSS Fundamentals",
+			"author": "Alice Johnson",
+			"date": "2024-03-05",
+			"file": "css_fundamentals.pdf",
+			"teacher": "이은주 선생님",
+			"contents": "CSS의 기초를 배우는 강좌입니다.",
+			"satisfaction": "★★★",
+			"views": "180"
+		},
+		{
+			"id": 4,
+			"title": "Node.js for Beginners",
+			"author": "Bob Brown",
+			"date": "2024-04-10",
+			"file": "nodejs_beginners.pdf",
+			"teacher": "박상현 선생님",
+			"contents": "Node.js 기초를 배우는 입문 강좌입니다.",
+			"satisfaction": "★★★",
+			"views": "220"
+		},
+		{
+			"id": 5,
+			"title": "Understanding TypeScript",
+			"author": "Charlie Davis",
+			"date": "2024-05-25",
+			"file": "typescript_guide.pdf",
+			"teacher": "정민수 선생님",
+			"contents": "TypeScript의 기본과 활용을 배우는 강좌입니다.",
+			"satisfaction": "★★★★",
+			"views": "300"
+		},
+		{
+			"id": 6,
+			"title": "Intro to Python",
+			"author": "David Wilson",
+			"date": "2024-06-01",
+			"file": "intro_to_python.pdf",
+			"teacher": "최수진 선생님",
+			"contents": "Python의 기초 문법과 사용법을 배우는 강좌입니다.",
+			"satisfaction": "★★",
+			"views": "250"
+		},
+		{
+			"id": 7,
+			"title": "Web Development Basics",
+			"author": "Evelyn Moore",
+			"date": "2024-07-15",
+			"file": "web_dev_basics.pdf",
+			"teacher": "이민호 선생님",
+			"contents": "웹 개발의 기초를 배우는 강좌입니다.",
+			"satisfaction": "★★",
+			"views": "170"
+		},
+		{
+			"id": 8,
+			"title": "Understanding APIs",
+			"author": "Frank Thompson",
+			"date": "2024-08-10",
+			"file": "understanding_apis.pdf",
+			"teacher": "강수빈 선생님",
+			"contents": "API의 개념과 활용법을 배우는 강좌입니다.",
+			"satisfaction": "★★★★",
+			"views": "190"
+		},
+		{
+			"id": 9,
+			"title": "Java for Beginners",
+			"author": "Grace Taylor",
+			"date": "2024-09-05",
+			"file": "java_beginners.pdf",
+			"teacher": "홍길동 선생님",
+			"contents": "Java 프로그래밍의 기초를 배우는 강좌입니다.",
+			"satisfaction": "★",
+			"views": "210"
+		},
+		{
+			"id": 10,
+			"title": "Introduction to SQL",
+			"author": "Henry Martinez",
+			"date": "2024-10-01",
+			"file": "sql_intro.pdf",
+			"teacher": "최정훈 선생님",
+			"contents": "SQL의 기본 쿼리 작성법을 배우는 강좌입니다.",
+			"satisfaction": "★★★★★",
+			"views": "230"
+		},
+		{
+			"id": 11,
+			"title": "React Hooks Explained",
+			"author": "Isabella Garcia",
+			"date": "2024-11-10",
+			"file": "test.pdf",
+			"teacher": "김하늘 선생님",
+			"contents": "React Hooks의 사용법을 설명하는 강좌입니다.",
+			"satisfaction": "★★★★★",
+			"views": "230"
+		}
+	],
+	"eventList": [
         {
 
 			"id": 1,
@@ -241,5 +362,4 @@
 			"image": "https://data.siwonschool.com/vietnam_board/event/2023/12/13/thumb_1702442582.jpg"
 		}
     ]
-
 }
